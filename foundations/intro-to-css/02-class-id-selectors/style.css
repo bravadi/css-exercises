@@ -1,1 +1,27 @@
-/* Add CSS Styling */
+p {
+    background-color: rgb(255, 107, 107);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+.big-font {
+    font-size: 36px;
+}
+
+.medium-font {
+    font-size: 24px;
+}
+
+.big-font#second-element {
+    color: rgb(55, 55, 255);
+}
+
+.medium-font#fourth-element {
+    background-color: rgb(122, 251, 130);
+    font-weight: bold;
+}
+
+.medium-font.odd-numbered {
+    font-size: 24px;
+    background-color: rgb(244, 90, 90);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}

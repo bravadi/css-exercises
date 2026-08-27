@@ -1,42 +1,58 @@
+/* Notes:
+
+These selectors don't exist and are not needed: 
+#confirm-button
+#cancel-button
+.cancel
+.text
+
+font-weights:
+100 -> thin
+none = 400
+bold = 700 -> bold -> Confirm buton
+800 -> extra bold
+
+font-sizes: 
+14px
+20px
+22px
+*/
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
+p {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
-
+.para {
+  font-size: 22px;
+}
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
+.button { 
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
-
-.confirm {
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
-.button {
-  background-color: rgb(255, 255, 255);
+div {
   color: rgb(0, 0, 0);
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 100;
 }
-
 .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}

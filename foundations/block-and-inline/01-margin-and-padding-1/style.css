@@ -1,8 +1,6 @@
 body {
   max-width: 600px;
   margin: 0 auto;
-  /* Adding a red border here to align .three using margin-left */
-  /* border: 1px solid red; */
 }
 
 .one {
@@ -26,5 +24,6 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 32px;
-  margin-left: 330px;
+  margin-left: auto;
+  /* I didn't realize that adding auto to margin means adding max equal value to each side (hence it results in a center alignment, so adding margin-left simply means max value to the left side! */
 }

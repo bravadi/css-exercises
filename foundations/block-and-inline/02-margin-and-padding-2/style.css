@@ -5,9 +5,8 @@ body {
 
 .card {
   width: 400px;
-  margin: 16px auto;
   background-color: white;
-  padding: 8px;
+  margin: 16px auto;
 }
 
 .title,
@@ -16,9 +15,25 @@ body {
   background-color: dodgerblue;
 }
 
+/* button {
+    I didn't specify background color anywhere.
+  } */
+
+
+
+
+/* MY SOLUTION SEPARATED POST-SOLUTION */
+
+
+
+
+.card {
+  padding: 8px;
+}
+
 .title {
-  font-size: 16px;
   margin: 8px 0 0 0;
+  font-size: 16px;
   padding: 8px;
 }
 
@@ -35,6 +50,6 @@ body {
 
 button {
   display: block;
-  padding: 6px 22px;
   margin: 0 auto;
+  padding: 6px 22px;
 }

@@ -53,7 +53,8 @@ ul {
 
 .header {
   display: flex;
-  padding: 8px
+  padding: 8px;
+  gap: 16px;
 }
 
 .logo {
@@ -64,7 +65,7 @@ ul {
   display: flex;
   flex-grow: 1;
   gap: 16px;
-  padding: 0 16px;
+  padding: 0;
   align-content: center;
   min-width: fit-content;
 }
@@ -73,13 +74,12 @@ li {
   flex-shrink: 0;
 }
 
-.profile-image {
-  margin-left: 16px;
+button {
+  gap: 16px;
 }
 
 .profile-image, button {
   display: flex;
   align-self: center;
   flex-shrink: 0;
-  /* gap: 16px; */
 }

@@ -17,10 +17,13 @@ img {
 .items {
   display: flex;
   gap: 52px;
+  align-items: baseline;
+  text-align: center;
+  justify-content: center;
 }
 
-.items-barberry {
-  align-items: center;
+.text {
+  width: 200px;
 }
 
 /* do not edit this footer */

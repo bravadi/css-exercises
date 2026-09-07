@@ -5,22 +5,52 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+a {
+  text-decoration: none;
+  color: #757677;
+}
+ul {
+  list-style-type: none;
+  padding: 0 1em;
+}
+.left-links, .right-links {
+  display: flex;
+  gap: 1em;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 img {
   width: 600px;
 }
-
-button {
-  font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
-  background: #eee;
-}
-
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin: 16px auto;
+}
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 0.6em 1.2em;
+}
+
+.footer {
+  background-color: #eeeeee;
 }
